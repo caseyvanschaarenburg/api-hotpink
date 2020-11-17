@@ -20,6 +20,12 @@ class Product
          $result = $this->conn->query($query);
          return $result;
      }
+    function qr($qr_id){
+        $query = "SELECT * FROM qr WHERE qr_id=$qr_id";
+        $result = $this->conn->query($query);
+        return $result;
+    }
+
 
 
 
