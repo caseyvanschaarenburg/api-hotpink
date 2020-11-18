@@ -1,9 +1,9 @@
 <?php
 class Database {
     private $host = "localhost";
-    private $dbname = "webshop";
-    private $username = "root";
-    private $password = "";
+    private $dbname = "	u533029_webshop";
+    private $username = "u533029_webshop";
+    private $password = "Admin123";
     private $conn;
 
     Public function __construct(){
@@ -12,7 +12,7 @@ class Database {
 
     public function getConnection() {
         try {
-            $conn = mysqli_connect($this->host, $this->username, $this->password, $this->dbname);
+            $conn = mysqli_connect('localhost', 'u533029_webshop', 'Admin123', 'u533029_webshop');
             if(!$conn) {
                 throw new exception(mysqli_connect_error($conn));
             }

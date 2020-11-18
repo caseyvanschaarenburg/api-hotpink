@@ -9,7 +9,7 @@ $db = $database->getConnection();
 
 $product = new Product($db);
 
-$result = $product->read();
+$result = $product->read2();
 
 
 $num = $result->num_rows;
@@ -36,5 +36,3 @@ else{
     );
 }
 ?>
-
-

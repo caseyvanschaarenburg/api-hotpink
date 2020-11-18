@@ -10,10 +10,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4e5547f-f0ef-4d96-b40b-2ee99c6f68fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/product/qr.php" afterDir="false" />
+    <list default="true" id="a4e5547f-f0ef-4d96-b40b-2ee99c6f68fa" name="Default Changelist" comment="qr code in api">
+      <change afterPath="$PROJECT_DIR$/product/read2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/configg/db.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/objects/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/objects/product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/image.php" beforeDir="false" afterPath="$PROJECT_DIR$/product/image.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/qr.php" beforeDir="false" afterPath="$PROJECT_DIR$/product/qr.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/read_all.php" beforeDir="false" afterPath="$PROJECT_DIR$/product/read_all.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +38,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../database-api" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -57,8 +61,17 @@
       <updated>1605522064739</updated>
       <workItem from="1605522065779" duration="10177000" />
       <workItem from="1605600960174" duration="621000" />
-      <workItem from="1605603193452" duration="3895000" />
+      <workItem from="1605603193452" duration="3920000" />
+      <workItem from="1605619677085" duration="5877000" />
     </task>
+    <task id="LOCAL-00001" summary="qr code in api">
+      <created>1605615411177</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605615411177</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,26 +87,31 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="qr code in api" />
+    <option name="LAST_COMMIT_MESSAGE" value="qr code in api" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1605600979760">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1605654130917">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605534229901" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605654130917" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605600979760" />
     <state x="289" y="243" key="NewPhpClassDialog" timestamp="1605522222342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="289" y="243" key="NewPhpClassDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605522222342" />
-    <state x="314" y="443" key="NewPhpFileDialog" timestamp="1605611520722">
+    <state x="314" y="443" key="NewPhpFileDialog" timestamp="1605620404756">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="314" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605533895893" />
-    <state x="314" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605611520722" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605603249370">
+    <state x="314" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605620404756" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605615412613">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605603249370" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605615412613" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605534027594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

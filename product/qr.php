@@ -4,7 +4,7 @@
 session_start();
 header("Access-Control-Allow-Origin: *");
 
-include '../config/db.php';
+include '../configg/db.php';
 include '../objects/product.php';
 
 
